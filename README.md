@@ -6,7 +6,7 @@ firebase architecter:
 
    in this case i created a new collection for each user (which is the Sender) called 'chats' , a 'chats' is a collection that contains documents inside ,
 each document represents the UID of the receiver user , in each documents i created a new collection 'messages' that containes document , each document presents a message (text),
-a message is a map of : senderID , receiverID, Message content and the dateTime ( you can see the complete architecter in isses file)
+a message is a map of : senderID , receiverID, Message content and the dateTime ( you can see the complete architecter here https://github.com/Sarah-ben/Flutter-firebase-chat/issues/1#issue-1167339207)
 
 getting messages:
 
